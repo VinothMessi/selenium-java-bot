@@ -1,0 +1,20 @@
+package org.ampion.auspost.enums;
+
+public enum WaitConditions {
+    IMPLICITYLY_FOR,
+    PAGE_LOAD_TIMEOUT,
+    SCRIPT_TIMEOUT,
+    ALERT_IS_PRESENT,
+    PRESENCE_OF,
+    VISIBILITY_OF,
+    INVISIBILITY_OF,
+    CLICKABLE,
+    SELECTABLE,
+    STALENESS,
+    FRAME,
+    TITLE_IS,
+    TITLE_CONTAINS,
+    URL_TO_BE,
+    URL_MATCHES,
+    URL_CONTAINS
+}

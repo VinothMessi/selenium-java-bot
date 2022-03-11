@@ -1,0 +1,29 @@
+package org.ampion.auspost.enums;
+
+public enum BrowserWindow {
+    MAXIMIZE,
+    MINIMIZE,
+    FULL_SCREEN,
+    CLOSE,
+    QUIT,
+    GET_TO,
+    NAVIGATE_TO,
+    NAVIGATE_FORWARD,
+    NAVIGATE_BACK,
+    REFRESH,
+    PAGE_TITLE,
+    PAGE_SOURCE,
+    CURRENT_URL,
+    NEW_TAB,
+    NEW_WINDOW,
+    FRAME_BY_ID,
+    FRAME_BY_NAME,
+    FRAME_BY_INDEX,
+    FRAME_BY_ELEMENT,
+    PARENT_FRAME,
+    DEFAULT_CONTENT,
+    ACCEPT_ALERT,
+    DISMISS_ALERT,
+    ALERT_TEXT,
+    TYPE_ALERT_TEXT
+}
