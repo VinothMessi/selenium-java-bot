@@ -82,10 +82,10 @@ public class Random {
     };
 
     static {
-        map3.put(RandomValues.FULL_NAME, array_of_full_name);
-        map3.put(RandomValues.FIRST_NAME, array_of_first_name);
-        map3.put(RandomValues.LAST_NAME, array_of_last_name);
-        map3.put(RandomValues.NAME_WITH_MIDDLE, array_of_name_with_middle);
+        map3.put(RandomValues.ARRAY_OF_FULL_NAME, array_of_full_name);
+        map3.put(RandomValues.ARRAY_OF_FIRST_NAME, array_of_first_name);
+        map3.put(RandomValues.ARRAY_OF_LAST_NAME, array_of_last_name);
+        map3.put(RandomValues.ARRAY_OF_NAME_WITH_MIDDLE, array_of_name_with_middle);
     }
 
     public void values(@NotNull String action, Integer size) {
