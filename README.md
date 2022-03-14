@@ -68,3 +68,37 @@ This class should contain methods that can be used for:
 4. Local time
 
 5. Current seconds and milliseconds
+
+
+
+**4. ENUMS:**
+
+Theses are mainly used to decide the behaviour of the framework
+
+1. **BrowserTypes:** To decide against which browser execution has to be done
+
+2. **BrowserWindow:** To decide the action to be executed within the browser window like (maximize, minimize, quit, close etc...)
+
+3. **Elements:** To decide the action to be executed on an element like (click, clear, submit etc...)
+
+4. **LocateBy:** To decide the locator by which element/elements to be located in the browser window
+
+5. **LocateRelativelyBy:** To decide the locator by which element/elements to be relatively located in the browser window
+
+6. **PerformActions:** Decide on the keyboard and mouse actions like (right click, double click, mouse over etc...)
+
+7. **RandomValues:** To generate random vales of type (string, numbers, alpha numeric etc...)
+
+8. **RemotePlatforms:** Decide on the remote platform for execution (selenium grid, selenoid, browser stack)
+
+9. **Scripts:** Decide on the java script to be executed (scroll to bottom, scroll to top, page refresh)
+
+10. **WaitConditions:** Decide on the webdriver wait condition (implicitly, pageload, clickable, visible, invisible etc...)
+
+**NOTE:**
+
+1. Place the **test data** files under **src/test/resources**
+
+2. Extent config file: **extent-config.xml** under **src/main/resources**
+
+3. **Test report and snap shots** by default will be created under **src/test/resources**
