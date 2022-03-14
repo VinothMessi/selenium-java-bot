@@ -30,3 +30,41 @@ platform= selenium_grid/selenoid/browser_stack
 hubUrl= http://<localhost/machine IP>:4444
 
 **NOTE:** Every value in the property file needs to be in lowercase
+
+
+**2. Helpers:**
+
+This package consists of all the classes/methods necessary for:
+
+1. Actions: within browser window and on elements
+
+2. Actions: Keyboard and Mouse actions
+
+3. Find element and elements
+
+4. Java script executors
+
+5. WebDriver waits
+
+6. Snap shots: 1. In build methods 2. Using Shutter bug
+
+7. Generate Random values
+
+8. Read test data: 1. Yml files 2. Json files 3. Excel files
+
+9. Extent Report
+    
+
+**3. Utilities:**
+
+This class should contain methods that can be used for:
+
+1. Encode
+
+2. Decode
+
+3. Current date and time
+
+4. Local time
+
+5. Current seconds and milliseconds
